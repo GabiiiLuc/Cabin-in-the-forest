@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="scena" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/scena" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/scena" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="mesh.cpp" />
+		<Unit filename="mesh.h" />
+		<Unit filename="model.cpp" />
+		<Unit filename="model.h" />
+		<Unit filename="obiect.cpp" />
+		<Unit filename="obiect.h" />
+		<Unit filename="obiect1.frag" />
+		<Unit filename="obiect1.vert" />
+		<Unit filename="resurse/BarkDecidious0143_5_S.jpg" />
+		<Unit filename="resurse/BarkDecidious0194_7_S.jpg" />
+		<Unit filename="resurse/Leaves0120_35_S.png" />
+		<Unit filename="resurse/Leaves0142_4_S.png" />
+		<Unit filename="resurse/Leaves0156_1_S.png" />
+		<Unit filename="resurse/Tree1.mtl" />
+		<Unit filename="resurse/Tree1.obj" />
+		<Unit filename="resurse/Trees.mtl" />
+		<Unit filename="resurse/Trees.obj" />
+		<Unit filename="resurse/cottage/House-UV-Normals.png" />
+		<Unit filename="resurse/cottage/House-UV-specular.png" />
+		<Unit filename="resurse/cottage/House-diff.png" />
+		<Unit filename="resurse/cottage/cottage.mtl" />
+		<Unit filename="resurse/cottage/cottage.obj" />
+		<Unit filename="resurse/cottage/tramy-UVnormalst.png" />
+		<Unit filename="resurse/fire1/fireplace.mtl" />
+		<Unit filename="resurse/fire1/fireplace.obj" />
+		<Unit filename="resurse/fire1/ohniste4UVcomplet1.png" />
+		<Unit filename="resurse/fire1/ohniste4UVcompletnormal1.png" />
+		<Unit filename="resurse/grass/10450_Rectangular_Grass_Patch_v1_Diffuse.jpg" />
+		<Unit filename="resurse/grass/10450_Rectangular_Grass_Patch_v1_iterations-2.mtl" />
+		<Unit filename="resurse/grass/10450_Rectangular_Grass_Patch_v1_iterations-2.obj" />
+		<Unit filename="resurse/grass/GRASS1.mtl" />
+		<Unit filename="resurse/grass/GRASS1.obj" />
+		<Unit filename="resurse/grass/Grass.mtl" />
+		<Unit filename="resurse/grass/Grass.obj" />
+		<Unit filename="resurse/grass/Grass1.jpg" />
+		<Unit filename="resurse/grass/Grass2.jpg" />
+		<Unit filename="resurse/grass/OBJ/Green Lawn (1).jpg" />
+		<Unit filename="resurse/grass/OBJ/Green Lawn (2).jpg" />
+		<Unit filename="resurse/grass/OBJ/Green Lawn (3).jpg" />
+		<Unit filename="resurse/grass/OBJ/Green Lawn (4).jpg" />
+		<Unit filename="resurse/grass/OBJ/Green Lawn (5).jpg" />
+		<Unit filename="resurse/grass/OBJ/GreenLawn.mtl" />
+		<Unit filename="resurse/grass/OBJ/GreenLawn.obj" />
+		<Unit filename="resurse/grass/grass.PNG" />
+		<Unit filename="resurse/pereti/bricks_0020_color_2k.jpg" />
+		<Unit filename="resurse/pereti/brickwall.mtl" />
+		<Unit filename="resurse/pereti/brickwall.obj" />
+		<Unit filename="resurse/pereti/nisip.mtl" />
+		<Unit filename="resurse/pereti/nisip.obj" />
+		<Unit filename="resurse/pereti/tiles.mtl" />
+		<Unit filename="resurse/pereti/tiles.obj" />
+		<Unit filename="resurse/pereti/tiles_0047_color_2k.png" />
+		<Unit filename="resurse/render1hdcool.png" />
+		<Unit filename="resurse/tree1/DB2X2_L01.png" />
+		<Unit filename="resurse/tree1/DB2X2_L02.png" />
+		<Unit filename="resurse/tree1/DB2X2_L02_NRM.png" />
+		<Unit filename="resurse/tree1/Render.jpeg" />
+		<Unit filename="resurse/tree1/Tree.mtl" />
+		<Unit filename="resurse/tree1/Tree.obj" />
+		<Unit filename="resurse/tree1/bark_0004.jpg" />
+		<Unit filename="resurse/tree2/Hazelnut.obj" />
+		<Unit filename="resurse/tree2/HazelnutBark.png" />
+		<Unit filename="resurse/tree2/HazelnutLeaves.png" />
+		<Unit filename="resurse/tree2/HazelnutLeavesMask.jpg" />
+		<Unit filename="resurse/tree2/HazelnutLeavesMask.png" />
+		<Unit filename="resurse/wood/Wood.mtl" />
+		<Unit filename="resurse/wood/Wood.obj" />
+		<Unit filename="resurse/wood/WoodTexture.png" />
+		<Unit filename="scena.cpp" />
+		<Unit filename="scena.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
